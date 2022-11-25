@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -130,4 +132,12 @@ section{
 
 .btn-danger{
     display: none;
+}
+
+.section{
+    padding-left: 190px;
+}
+
+section *{
+    font-family: 'Press Start 2P', sans-serif;
 }
