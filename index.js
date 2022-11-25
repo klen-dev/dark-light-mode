@@ -11,7 +11,7 @@ let natija = document.getElementById("natija");
 let reset = document.getElementById("reset");
 let section = document.getElementById("section");
 let qolgan = document.getElementById("qolgan");
-
+let javob = document.getElementById("javob");
 
 darkMode.addEventListener("click" , function(){
     document.body.classList.toggle('dark');
@@ -55,6 +55,8 @@ numberBtn.addEventListener("click", ()=>{
         reset.style.display = "block";
         numberBtn.disabled = true;
         qolgan.textContent = "";
+        javob.style.display = "block";
+        javob.textContent = `Men o'ylagan son: ${randomNumber} edi ☹️`;
     }
 });
 console.log(randomNumber, number);

@@ -126,4 +126,8 @@ section {
 
 section * {
   font-family: "Press Start 2P", sans-serif;
+}
+
+section .alert {
+  display: none;
 }/*# sourceMappingURL=index.css.map */
