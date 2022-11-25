@@ -109,4 +109,12 @@ body * {
 .navbar-active {
   padding-left: 190px;
   transition: all 0.3s;
+}
+
+section {
+  padding-left: 70px;
+}
+
+.btn-danger {
+  display: none;
 }/*# sourceMappingURL=index.css.map */
