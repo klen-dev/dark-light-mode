@@ -28,8 +28,8 @@ toogle.addEventListener("click", ()=>{
 
 
 let randomNumber = Math.trunc(Math.random()*20+1);
-let score = 10;
-qolgan.textContent = 10;
+let score = 5;
+qolgan.textContent = '5';
 
 numberBtn.addEventListener("click", ()=>{
     let son = number.value*1;
